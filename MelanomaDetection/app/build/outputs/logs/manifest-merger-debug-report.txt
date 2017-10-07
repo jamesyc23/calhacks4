@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/helen/.android/build-cache/13b240cd104d36393e89081cf3c6b9f5d3e6ea7e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/5a813610da26c95ab60c2ee725592e52c5622488/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/helen/.android/build-cache/8c51795da615e73e5781fd11d98afbbf9b9a8129/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/helen/.android/build-cache/13784b6472c222227460ec6001dd893feb16661d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/helen/.android/build-cache/525872056c270fbe5b25d51bf49c776cee6c3579/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/5400458e267ae7c0b51c123db5b324820de4dc52/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/180e45a86b7fc575787cfd5ec42b5cf98190b0d0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/4061177404d78a0cd279f7d8aecbfafe982590f9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/helen/.android/build-cache/34b341d10416eddc009870f56f98e7e8717d20dd/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:11:9-40
+activity#edu.berkeley.helentang.melanomadetection.MainActivity
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/helen/.android/build-cache/13b240cd104d36393e89081cf3c6b9f5d3e6ea7e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/5a813610da26c95ab60c2ee725592e52c5622488/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/helen/.android/build-cache/8c51795da615e73e5781fd11d98afbbf9b9a8129/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/helen/.android/build-cache/13784b6472c222227460ec6001dd893feb16661d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/helen/.android/build-cache/525872056c270fbe5b25d51bf49c776cee6c3579/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/5400458e267ae7c0b51c123db5b324820de4dc52/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/180e45a86b7fc575787cfd5ec42b5cf98190b0d0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/4061177404d78a0cd279f7d8aecbfafe982590f9/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/helen/.android/build-cache/34b341d10416eddc009870f56f98e7e8717d20dd/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/helen/.android/build-cache/13b240cd104d36393e89081cf3c6b9f5d3e6ea7e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/5a813610da26c95ab60c2ee725592e52c5622488/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/helen/.android/build-cache/8c51795da615e73e5781fd11d98afbbf9b9a8129/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/helen/.android/build-cache/13784b6472c222227460ec6001dd893feb16661d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/helen/.android/build-cache/525872056c270fbe5b25d51bf49c776cee6c3579/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/5400458e267ae7c0b51c123db5b324820de4dc52/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/helen/.android/build-cache/180e45a86b7fc575787cfd5ec42b5cf98190b0d0/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/helen/.android/build-cache/4061177404d78a0cd279f7d8aecbfafe982590f9/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/helen/.android/build-cache/e40149a7cfe328523f054ef3f9e89517d579df50/output/AndroidManifest.xml:26:9-47
