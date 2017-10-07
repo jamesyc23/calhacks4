@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/helen/Projects/calhacks4/MelanomaDetection/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/helen/Projects/calhacks4/MelanomaDetection/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/helen/Projects/calhacks4/MelanomaDetection/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
