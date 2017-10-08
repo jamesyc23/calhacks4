@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wordpress.bytedebugger.simplecamera">
+    package="edu.berkeley.jamesyc23">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -20,10 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayProfileActivity" />
+        <activity android:name="edu.berkeley.jamesyc23.DisplayProfileActivity" />
         <activity android:name=".DisplayFaqActivity" />
-        <activity android:name=".DisplayPractitionerActivity" />
-        <activity android:name=".DisplaySettingsActivity"></activity>
+        <activity android:name="edu.berkeley.jamesyc23.DisplayPractitionerActivity" />
+        <activity android:name="edu.berkeley.jamesyc23.DisplaySettingsActivity"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wordpress.bytedebugger.simplecamera.DisplayPractitionerActivity">
+    tools:context="com.wordpress.bytedebugger.simplecamera.edu.berkeley.jamesyc23.DisplayPractitionerActivity">
 
     <Button
         android:id="@+id/button_home"

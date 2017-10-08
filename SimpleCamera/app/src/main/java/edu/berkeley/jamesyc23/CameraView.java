@@ -1,4 +1,4 @@
-package com.wordpress.bytedebugger.simplecamera;
+package edu.berkeley.jamesyc23;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -23,6 +23,10 @@ public class CameraView extends SurfaceView implements SurfaceHolder.Callback{
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_NORMAL);
     }
 
+    public SurfaceHolder getSurfaceHolder(){
+        return mHolder;
+    }
+
     @Override
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
         try{
@@ -37,6 +41,8 @@ public class CameraView extends SurfaceView implements SurfaceHolder.Callback{
     @Override
     public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i2, int i3) {
         //before changing the application orientation, you need to stop the preview, rotate and then start it again
+        mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+
         if(mHolder.getSurface() == null)//check if the surface is ready to receive camera data
             return;
 

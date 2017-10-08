@@ -1,16 +1,16 @@
-package com.wordpress.bytedebugger.simplecamera;
+package edu.berkeley.jamesyc23;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class DisplayPractitionerActivity extends AppCompatActivity {
+public class DisplayFaqActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_practitioner);
+        setContentView(R.layout.activity_display_faq);
     }
 
     /** Called when the user taps the Home button */

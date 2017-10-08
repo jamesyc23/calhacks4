@@ -1,90 +1,111 @@
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageButton
+    <android.view.SurfaceView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </android.view.SurfaceView>
+
+    <Button
+        android:id="@+id/take_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imgClose"
-        android:background="@android:drawable/ic_menu_close_clear_cancel"
-        android:padding="20dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:onClick="takePhoto"
+        android:text="Take Photo"
+        android:layout_below="@+id/camera_view"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/take_photo"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/button_faq"
+            android:layout_alignBottom="@+id/button_faq"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:onClick="displayProfile"
+            android:text="profile" />
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/take_photo"
+            android:layout_toEndOf="@+id/button_faq"
+            android:layout_toRightOf="@+id/button_faq"
+            android:layout_weight="1"
+            android:onClick="displaySettings"
+            android:text="settings" />
+
+        <Button
+            android:id="@+id/button_practitioner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:onClick="displayPractitioner"
+            android:text="practitioner" />
+
+        <Button
+            android:id="@+id/button_faq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/take_photo"
+            android:layout_toEndOf="@+id/button_profile"
+            android:layout_toRightOf="@+id/button_profile"
+            android:layout_weight="1"
+            android:onClick="displayFAQ"
+            android:text="faq" />
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button_profile"
-        android:layout_width="79dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16dp"
-        android:onClick="displayProfile"
-        android:text="profile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="501dp" />
+        android:id="@+id/retake_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/take_photo"
+        android:layout_alignBottom="@+id/take_photo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:onClick="retakePhoto"
+        android:text="Retake Photo"
+        android:visibility="gone" />
 
     <Button
-        android:id="@+id/button_faq"
-        android:layout_width="73dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="13dp"
-        android:onClick="displayFAQ"
-        android:text="faq"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/button_profile" />
+        android:id="@+id/analyze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/take_photo"
+        android:layout_alignBottom="@+id/take_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:text="Analyze"
+        android:visibility="gone" />
 
-    <Button
-        android:id="@+id/button_practitioner"
-        android:layout_width="76dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="12dp"
-        android:onClick="displayPractitioner"
-        android:text="practitioner"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/button_faq" />
-
-    <Button
-        android:id="@+id/button_setting"
-        android:layout_width="91dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:onClick="displaySettings"
-        android:text="settings"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toRightOf="@+id/button_practitioner"
-        app:layout_constraintRight_toRightOf="parent" />
-
-    <FrameLayout
-        android:id="@+id/camera_view"
-        android:layout_width="352dp"
-        android:layout_height="470dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/imgClose"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
-
-    </FrameLayout>
-
-</android.support.constraint.ConstraintLayout>
+</android.widget.RelativeLayout>

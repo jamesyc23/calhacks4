@@ -1,4 +1,4 @@
-package com.wordpress.bytedebugger.simplecamera;
+package edu.berkeley.jamesyc23;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
