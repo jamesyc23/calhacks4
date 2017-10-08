@@ -1,8 +1,10 @@
 package com.wordpress.bytedebugger.simplecamera;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +13,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private Camera mCamera = null;
     private CameraView mCameraView = null;
 
@@ -40,5 +42,29 @@ public class MainActivity extends Activity {
                 System.exit(0);
             }
         });
+    }
+
+    /** Called when the user taps the Profile button */
+    public void displayProfile(View view) {
+        Intent intent = new Intent(this, DisplayProfileActivity.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the FAQ button */
+    public void displayFAQ(View view) {
+        Intent intent = new Intent(this, DisplayFaqActivity.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the Practitioner button */
+    public void displayPractitioner(View view) {
+        Intent intent = new Intent(this, DisplayPractitionerActivity.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps the Settings button */
+    public void displaySettings(View view) {
+        Intent intent = new Intent(this, DisplaySettingsActivity.class);
+        startActivity(intent);
     }
 }
