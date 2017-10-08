@@ -48,7 +48,10 @@ public class DisplaySettingsActivity extends AppCompatActivity {
 
             }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a548e16cbace43009e4ac8cb204f92e5ffbc2a41
         });
     }
 
@@ -77,7 +80,11 @@ public class DisplaySettingsActivity extends AppCompatActivity {
         this.setContentView(R.layout.activity_display_settings);
 
         Intent refresh = new Intent(this, DisplaySettingsActivity.class);
+<<<<<<< HEAD
         startActivity(intent);
+=======
+        startActivity(refresh);
+>>>>>>> a548e16cbace43009e4ac8cb204f92e5ffbc2a41
     }
 
 //        String languageToLoad  = "fa"; // your language
