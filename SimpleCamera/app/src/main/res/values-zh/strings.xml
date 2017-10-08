@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Camera</string>
+    <string name="FAQ">常问问题</string>
+    <string name="Settings">设置</string>
+    <string name="Profile">用户</string>
+    <string name="Doctor">咨询医生</string>
+    <string name="VersionNumber">版本 2.3.31.24</string>
+    <string name="About">关于</string>
+    <string name="Q_worried">如果我找到一个痣我应该担心吗？</string>
+    <string name="Q_what_is">黑色素瘤是什么？</string>
+    <string name="A_whatis">黑色素瘤是皮肤癌最严重的形式。这个症状是由黑色素细胞不可控制地生长而显示出来的。</string>
+    <string name="A_worried">虽然黑色素瘤很严重，如果您注意避免损害皮肤的太阳光和使用防晒霜，这是可以预防的。</string>
+    <string name="Citation">参考文献</string>
+    <string name="JohnDoe">小明</string>
+    <string name="Hospital">护理提供者：唐中心</string>
+</resources>
