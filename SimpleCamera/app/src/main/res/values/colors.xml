@@ -2,5 +2,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <color name="analyze_button_color">#00FF00</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>
