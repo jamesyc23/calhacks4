@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.wordpress.bytedebugger.simplecamera.test">
+    package="com.yahoo.chrisliambender.simplecamera.test">
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.wordpress.bytedebugger.simplecamera"
+                     android:targetPackage="com.yahoo.chrisliambender.simplecamera"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.wordpress.bytedebugger.simplecamera"/>
+                     android:label="Tests for com.yahoo.chrisliambender.simplecamera"/>
 </manifest>

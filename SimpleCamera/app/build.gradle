@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.wordpress.bytedebugger.simplecamera"
+        applicationId "com.yahoo.chrisliambender.simplecamera"
         minSdkVersion 9
         targetSdkVersion 22
         versionCode 1

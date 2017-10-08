@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/lib/com.yahoo.chrisliambender.simplecamera"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wordpress.bytedebugger.simplecamera.com.yahoo.chrisliambender.simplecamera.DisplayProfileActivity">
+    tools:context="com.yahoo.chrisliambender.simplecamera.DisplayProfileActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PROFILE PAGE!!"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="28dp"
+        android:text="@string/JohnDoe"
+        android:textSize="24sp"
         app:layout_constraintLeft_toRightOf="@+id/button_home"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_below="@+id/button_home"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp" />
 
     <Button
         android:id="@+id/button_home"
@@ -28,4 +32,28 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="45dp"
+        android:text="@string/Hospital"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button_home"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/profile"
+        app:srcCompat="@drawable/profile" />
+
 </android.widget.RelativeLayout>

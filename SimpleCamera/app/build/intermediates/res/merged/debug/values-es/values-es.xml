@@ -26,5 +26,6 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
-    <string name="app_name">Simple Camera</string>
+    <string name="app_name">Delve</string>
+    <string name="language">Lenguaje</string>
 </resources>

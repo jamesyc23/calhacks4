@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Camera</string>
+    <string name="app_name">Delve</string>
     <string name="FAQ">Preguntas más frecuentes</string>
     <string name="Settings">Ajustes</string>
     <string name="Profile">Perfil</string>
@@ -14,4 +14,5 @@
     <string name="Citation">citas</string>
     <string name="JohnDoe">José Martinez</string>
     <string name="Hospital">Proveedor de Cuidado: Tang Center</string>
+    <string name="language">Lenguaje</string>
 </resources>

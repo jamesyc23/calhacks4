@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Camera</string>
+    <string name="app_name">Delve</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -17,4 +17,5 @@
     <string name="A_worried">While melanoma can be deadly, it is preventable if you take caution to avoid damaging sun rays and apply sunscreen when outside for a long time. Additionally, the five year survival rate for patients who were diagnosed with melanona early is 98%.</string>
     <string name="JohnDoe">John Doe</string>
     <string name="Hospital">Care Provider: Tang Center</string>
+    <string name="language">Language</string>
 </resources>

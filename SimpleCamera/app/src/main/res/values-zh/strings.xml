@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Camera</string>
+    <string name="app_name">Delve</string>
     <string name="FAQ">常问问题</string>
     <string name="Settings">设置</string>
     <string name="Profile">用户</string>
@@ -14,4 +14,5 @@
     <string name="Citation">参考文献</string>
     <string name="JohnDoe">小明</string>
     <string name="Hospital">护理提供者：唐中心</string>
+    <string name="language">语言</string>
 </resources>

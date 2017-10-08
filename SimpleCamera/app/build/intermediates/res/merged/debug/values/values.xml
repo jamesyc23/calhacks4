@@ -106,11 +106,12 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="altbutton">#AADD11</color>
+    <color name="altbutton">#ADD8E6</color>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -124,7 +125,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <color name="green">#00FF00</color>
+    <color name="green">#7CFC00</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
@@ -144,7 +145,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <color name="red">#FF0000</color>
+    <color name="red">#FF6666</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -295,9 +296,10 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Simple Camera</string>
+    <string name="app_name">Delve</string>
     <string name="citations" translatable="false">"American Academy of Dermatology. (n.d.). Melanoma FAQs. Retrieved October 7, 2017, from https://www.aad.org/media/stats/conditions/melanoma-faqs Mayo Clinic. (n.d.). Melanoma. Retrieved October 7, 2017, from http://www.mayoclinic.org/diseases-conditions/melanoma/basics/definition/con-20026009 "</string>
     <string name="hello_world">Hello world!</string>
+    <string name="language">Language</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

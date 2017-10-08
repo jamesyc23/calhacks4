@@ -23,7 +23,7 @@
         <activity android:name="com.yahoo.chrisliambender.simplecamera.DisplayProfileActivity" />
         <activity android:name="com.yahoo.chrisliambender.simplecamera.DisplayFaqActivity" />
         <activity android:name="com.yahoo.chrisliambender.simplecamera.DisplayPractitionerActivity" />
-        <activity android:name="com.yahoo.chrisliambender.simplecamera.DisplaySettingsActivity"></activity>
+        <activity android:name="com.yahoo.chrisliambender.simplecamera.DisplaySettingsActivity" />
     </application>
 
 </manifest>

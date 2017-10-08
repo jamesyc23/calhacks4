@@ -63,7 +63,7 @@ ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:25:19-100
 activity#com.yahoo.chrisliambender.simplecamera.DisplaySettingsActivity
-ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:26:9-108
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:26:9-99
 	android:name
 		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:26:19-96
 uses-sdk

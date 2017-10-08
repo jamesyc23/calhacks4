@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                         String recommendation;
 
                         if (percent < 5){
-                            recommendation = "Your skin condition appears normal.";
+                            recommendation = "Your skin appears to be normal.";
                         } else {
                             recommendation = "We recommend waiting two weeks and performing another scan.";
                         }
@@ -201,6 +201,7 @@ public class MainActivity extends AppCompatActivity {
                                     @Override
                                     public void onClick(DialogInterface dialogInterface, int i) {
                                         dialogInterface.dismiss();
+                                        retakePicture();
                                     }
                                 }).create();
                         resultDialog.show();

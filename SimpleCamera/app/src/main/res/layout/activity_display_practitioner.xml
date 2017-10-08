@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.wordpress.bytedebugger.simplecamera.com.yahoo.chrisliambender.simplecamera.DisplayPractitionerActivity">
+    tools:context="com.yahoo.chrisliambender.simplecamera.DisplayPractitionerActivity">
 
     <Button
         android:id="@+id/button_home"
@@ -23,12 +23,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_home"
-        android:layout_marginLeft="48dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/button_home"
-        android:layout_toRightOf="@+id/button_home"
-        android:text="(Practitioner Page)"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Contact Your Practitioner"
+        android:textSize="20sp"
         app:layout_constraintLeft_toRightOf="@+id/button_home"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,37 +34,55 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:text="To: (doctor) \n\nFrom:"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView3"
-        android:layout_toLeftOf="@+id/textView3"
-        android:layout_toStartOf="@+id/textView3" />
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:text="To: Dr. Smith"
+        android:textSize="18sp" />
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="120dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginStart="43dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/button_home"
+        android:layout_toRightOf="@+id/button_home"
         android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        android:layout_marginTop="27dp"
-        android:layout_alignTop="@+id/textView5"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5" />
+        android:spinnerMode="dropdown" />
 
     <TextView
         android:id="@+id/editText"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:clickable="true"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Optional Message"
-        android:layout_below="@+id/spinner1"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_alignStart="@+id/textView5"
         android:onClick="onClick"
-        android:clickable="true" />
+        android:padding="10dp"
+        android:text="Optional Message ..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From:"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/spinner1"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
 
 </android.widget.RelativeLayout>
