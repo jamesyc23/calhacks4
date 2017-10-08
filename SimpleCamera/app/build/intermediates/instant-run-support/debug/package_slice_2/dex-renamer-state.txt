@@ -1,4 +1,4 @@
-#Sun Oct 08 06:11:15 PDT 2017
-base.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+#Sun Oct 08 07:19:52 PDT 2017
+base.0=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
-file.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex
+file.0=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

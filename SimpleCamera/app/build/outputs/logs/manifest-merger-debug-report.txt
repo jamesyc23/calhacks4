@@ -1,83 +1,79 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:3:5-53
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:5:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:6:5-81
-	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:5:22-62
 uses-feature#android.hardware.camera
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:8:5-60
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:7:5-60
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:8:19-57
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:7:19-57
 application
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:10:5-28:19
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:9:5-27:19
 MERGED from [com.android.support:appcompat-v7:22.1.0] C:\Users\chris\.android\build-cache\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.1.0] C:\Users\chris\.android\build-cache\572393d693d4358692642ba974e84dce0db01b2a\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\chris\.android\build-cache\943aeb49ea2a97b96cbd43d83dc6413538983a0d\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:12:9-41
 	android:allowBackup
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:14:9-40
-activity#edu.berkeley.jamesyc23.MainActivity
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:15:9-23:20
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.yahoo.chrisliambender.simplecamera.MainActivity
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:label
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:15:13-79
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:21:27-74
-activity#edu.berkeley.jamesyc23.DisplayProfileActivity
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:24:9-82
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.yahoo.chrisliambender.simplecamera.DisplayProfileActivity
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:23:9-98
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:24:19-79
-activity#edu.berkeley.jamesyc23.DisplayFaqActivity
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:25:9-56
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:23:19-95
+activity#com.yahoo.chrisliambender.simplecamera.DisplayFaqActivity
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:24:9-94
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:25:19-53
-activity#edu.berkeley.jamesyc23.DisplayPractitionerActivity
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:26:9-87
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:24:19-91
+activity#com.yahoo.chrisliambender.simplecamera.DisplayPractitionerActivity
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:25:9-103
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:26:19-84
-activity#edu.berkeley.jamesyc23.DisplaySettingsActivity
-ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:27:9-92
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:25:19-100
+activity#com.yahoo.chrisliambender.simplecamera.DisplaySettingsActivity
+ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:26:9-108
 	android:name
-		ADDED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml:27:19-80
+		ADDED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml:26:19-96
 uses-sdk
-INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.1.0] C:\Users\chris\.android\build-cache\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:22.1.0] C:\Users\chris\.android\build-cache\572393d693d4358692642ba974e84dce0db01b2a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\chris\.android\build-cache\943aeb49ea2a97b96cbd43d83dc6413538983a0d\output\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chris\Desktop\CalHacks4\calhacks4\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\chris\Desktop\SimpleCamera\app\src\main\AndroidManifest.xml

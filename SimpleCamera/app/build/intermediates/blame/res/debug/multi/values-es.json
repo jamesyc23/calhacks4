@@ -1,14 +1,261 @@
 [
     {
-        "outputFile": "C:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
+        "outputFile": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es\\values-es.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endColumn": 196,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 196,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 338,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 740,
+                        "endColumn": 338,
+                        "endOffset": 1074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 43,
+                    "endOffset": 630
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 353,
+                        "endColumn": 43,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 635,
+                    "endColumn": 42,
+                    "endOffset": 673
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1079,
+                        "endColumn": 42,
+                        "endOffset": 1117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 678,
+                    "endColumn": 41,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endColumn": 41,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 56,
+                    "endOffset": 772
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 56,
+                        "endOffset": 158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 777,
+                    "endColumn": 70,
+                    "endOffset": 843
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 70,
+                        "endOffset": 1238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 848,
+                    "endColumn": 49,
+                    "endOffset": 893
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1122,
+                        "endColumn": 49,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 898,
+                    "endColumn": 42,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 42,
+                        "endOffset": 246
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endColumn": 55,
+                    "endOffset": 992
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 55,
+                        "endOffset": 448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 997,
+                    "endColumn": 89,
+                    "endOffset": 1082
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 453,
+                        "endColumn": 89,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1087,
+                    "endColumn": 44,
+                    "endOffset": 1127
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 163,
+                        "endColumn": 44,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1132,
+                    "endColumn": 59,
+                    "endOffset": 1187
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 59,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1192,
                     "endColumn": 116,
-                    "endOffset": 167
+                    "endOffset": 1304
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -23,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 172,
+                    "startOffset": 1309,
                     "endColumn": 112,
-                    "endOffset": 280
+                    "endOffset": 1417
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -42,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 285,
+                    "startOffset": 1422,
                     "endColumn": 107,
-                    "endOffset": 388
+                    "endOffset": 1525
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -61,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 393,
+                    "startOffset": 1530,
                     "endColumn": 84,
-                    "endOffset": 473
+                    "endOffset": 1610
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -80,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 478,
+                    "startOffset": 1615,
                     "endColumn": 100,
-                    "endOffset": 574
+                    "endOffset": 1711
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -99,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 579,
+                    "startOffset": 1716,
                     "endColumn": 127,
-                    "endOffset": 702
+                    "endOffset": 1839
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -118,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 707,
+                    "startOffset": 1844,
                     "endColumn": 106,
-                    "endOffset": 809
+                    "endOffset": 1946
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -137,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 814,
+                    "startOffset": 1951,
                     "endColumn": 99,
-                    "endOffset": 909
+                    "endOffset": 2046
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -156,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 914,
+                    "startOffset": 2051,
                     "endColumn": 98,
-                    "endOffset": 1008
+                    "endOffset": 2145
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -175,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1013,
+                    "startOffset": 2150,
                     "endColumn": 107,
-                    "endOffset": 1116
+                    "endOffset": 2253
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -194,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1121,
+                    "startOffset": 2258,
                     "endColumn": 106,
-                    "endOffset": 1223
+                    "endOffset": 2360
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -213,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1228,
+                    "startOffset": 2365,
                     "endColumn": 106,
-                    "endOffset": 1330
+                    "endOffset": 2467
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -232,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1335,
+                    "startOffset": 2472,
                     "endColumn": 121,
-                    "endOffset": 1452
+                    "endOffset": 2589
                 },
                 "from": {
                     "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-es\\values.xml",
@@ -246,6 +493,25 @@
                         "startOffset": 1571,
                         "endColumn": 121,
                         "endOffset": 1688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2594,
+                    "endColumn": 50,
+                    "endOffset": 2640
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\Desktop\\SimpleCamera\\app\\src\\main\\res\\values-es\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
                     }
                 }
             }

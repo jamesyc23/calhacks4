@@ -106,7 +106,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="analyze_button_color">#00FF00</color>
+    <color name="altbutton">#AADD11</color>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
@@ -117,12 +117,14 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button">#8F03AA</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="green">#00FF00</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
@@ -142,6 +144,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#FF0000</color>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -261,6 +264,19 @@
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
+    <string name="A_whatis">Melanoma is the most severe form of skin cancer, where skin cells called melanocytes become cancerous and grow uncontrollably.</string>
+    <string name="A_worried">While melanoma can be deadly, it is preventable if you take caution to avoid damaging sun rays and apply sunscreen when outside for a long time. Additionally, the five year survival rate for patients who were diagnosed with melanona early is 98%.</string>
+    <string name="About">About</string>
+    <string name="Citation">Works Cited</string>
+    <string name="Doctor">Doctor</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Hospital">Care Provider: Tang Center</string>
+    <string name="JohnDoe">John Doe</string>
+    <string name="Profile">Profile</string>
+    <string name="Q_what_is">What is melanoma?</string>
+    <string name="Q_worried">Should I be worried if I find a mole?</string>
+    <string name="Settings">Settings</string>
+    <string name="VersionNumber">Version 2.3.31.24</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -280,6 +296,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Simple Camera</string>
+    <string name="citations" translatable="false">"American Academy of Dermatology. (n.d.). Melanoma FAQs. Retrieved October 7, 2017, from https://www.aad.org/media/stats/conditions/melanoma-faqs Mayo Clinic. (n.d.). Melanoma. Retrieved October 7, 2017, from http://www.mayoclinic.org/diseases-conditions/melanoma/basics/definition/con-20026009 "</string>
     <string name="hello_world">Hello world!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="A_whatis">El melanoma es la forma más grave de cáncer de piel, donde las células de la piel llamadas melanocitos se convierten en cancerosas y crecen incontrolablemente.</string>
+    <string name="A_worried">Si bien el melanoma puede ser mortal, es prevenible si se toma precaución para evitar dañar los rayos del sol y aplicar protector solar cuando está fuera durante mucho tiempo. Además, la tasa de supervivencia de cinco años para los pacientes que fueron diagnosticados de melanona temprano es del 98%.</string>
+    <string name="About">Acerca de</string>
+    <string name="Citation">citas</string>
+    <string name="Doctor">Médico</string>
+    <string name="FAQ">Preguntas más frecuentes</string>
+    <string name="Hospital">Proveedor de Cuidado: Tang Center</string>
+    <string name="JohnDoe">José Martinez</string>
+    <string name="Profile">Perfil</string>
+    <string name="Q_what_is">¿Que es melanoma?</string>
+    <string name="Q_worried">"¿Debería estar preocupado si encuentro un lunar? "</string>
+    <string name="Settings">Ajustes</string>
+    <string name="VersionNumber">Versión 2.3.31.24</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
@@ -13,4 +26,5 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string name="app_name">Simple Camera</string>
 </resources>

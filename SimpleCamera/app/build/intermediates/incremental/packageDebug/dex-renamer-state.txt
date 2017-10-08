@@ -1,7 +1,7 @@
-#Sun Oct 08 06:18:24 PDT 2017
-base.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_06a23d6cbc3eb3264db565f4f51b7d7e6273cd01
+#Sun Oct 08 07:19:52 PDT 2017
+base.0=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6ac9a22e3227405a061d39d08bd694e395c8fe2
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cc26a901808e6e3477f7a6dda5b584d695b0ad7f\\classes.dex
-base.1=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cc26a901808e6e3477f7a6dda5b584d695b0ad7f
-file.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_06a23d6cbc3eb3264db565f4f51b7d7e6273cd01\\classes.dex
+file.1=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5e3e5c854d484138abfb8ec143e4331b97735677\\classes.dex
+base.1=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5e3e5c854d484138abfb8ec143e4331b97735677
+file.0=C\:\\Users\\chris\\Desktop\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6ac9a22e3227405a061d39d08bd694e395c8fe2\\classes.dex
