@@ -1,0 +1,111 @@
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.view.SurfaceView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </android.view.SurfaceView>
+
+    <Button
+        android:id="@+id/take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="takePhoto"
+        android:text="Take Photo"
+        android:layout_below="@+id/camera_view"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/take_photo"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/button_faq"
+            android:layout_alignBottom="@+id/button_faq"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:onClick="displayProfile"
+            android:text="profile" />
+
+        <Button
+            android:id="@+id/button_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/take_photo"
+            android:layout_toEndOf="@+id/button_faq"
+            android:layout_toRightOf="@+id/button_faq"
+            android:layout_weight="1"
+            android:onClick="displaySettings"
+            android:text="settings" />
+
+        <Button
+            android:id="@+id/button_practitioner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:onClick="displayPractitioner"
+            android:text="practitioner" />
+
+        <Button
+            android:id="@+id/button_faq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/take_photo"
+            android:layout_toEndOf="@+id/button_profile"
+            android:layout_toRightOf="@+id/button_profile"
+            android:layout_weight="1"
+            android:onClick="displayFAQ"
+            android:text="faq" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/retake_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/take_photo"
+        android:layout_alignBottom="@+id/take_photo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:onClick="retakePhoto"
+        android:text="Retake Photo"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/analyze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/take_photo"
+        android:layout_alignBottom="@+id/take_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:text="Analyze"
+        android:visibility="gone" />
+
+</android.widget.RelativeLayout>
