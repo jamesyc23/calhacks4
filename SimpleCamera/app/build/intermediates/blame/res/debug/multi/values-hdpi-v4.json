@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "C:\\Users\\chris\\.android\\build-cache\\d7d52de0e8cbbd6e53317f7c10a83331a2e2152d\\output\\res\\values-hdpi-v4\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 567
+                    }
+                }
+            }
+        ]
+    }
+]

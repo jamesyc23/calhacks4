@@ -1,0 +1,19 @@
+#Sun Oct 08 05:19:18 PDT 2017
+renamed.5=classes6.dex
+renamed.4=classes2.dex
+renamed.3=classes3.dex
+renamed.2=classes4.dex
+renamed.1=classes5.dex
+renamed.0=classes.dex
+base.5=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.0_9fbc50dc1863c689bf2d6195c5c03ac470ec32b7
+base.4=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4c298766bf4092e5d01aba676b42caeccbb0ebd2
+base.3=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bbc2b2e344a390708030f28b27d87ee7df1f8641
+base.2=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_ddde97d5653d49f50f0d20864bbea4fab795d08f
+base.1=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.0_f31c2d23c6e16b4d5d62de4333f7f1c463382c8e
+base.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2043f61c2df22c18e0cc39babc4c8adef5f20a31
+file.5=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.0_9fbc50dc1863c689bf2d6195c5c03ac470ec32b7\\classes.dex
+file.4=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4c298766bf4092e5d01aba676b42caeccbb0ebd2\\classes.dex
+file.3=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bbc2b2e344a390708030f28b27d87ee7df1f8641\\classes.dex
+file.2=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_ddde97d5653d49f50f0d20864bbea4fab795d08f\\classes.dex
+file.1=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.0_f31c2d23c6e16b4d5d62de4333f7f1c463382c8e\\classes.dex
+file.0=C\:\\Users\\chris\\Desktop\\CalHacks4\\calhacks4\\SimpleCamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2043f61c2df22c18e0cc39babc4c8adef5f20a31\\classes.dex
